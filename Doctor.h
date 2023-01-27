@@ -9,10 +9,10 @@
 #include "Empleado.h"
 
 
-class Doctor: public Empleado {
+public ref class Doctor: public Empleado {
 public: 
-    String Speciality;
-    int PatiensAttended;
+    property String^ Speciality;
+    property int PatiensAttended;
 };
 
 #endif //_DOCTOR_H
