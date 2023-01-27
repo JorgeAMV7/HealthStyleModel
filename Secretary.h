@@ -2,16 +2,12 @@
  * Project Untitled
  */
 
-
-#ifndef _SECRETARY_H
-#define _SECRETARY_H
-
 #include "Empleado.h"
+using namespace System;
 
-
-class Secretary: public Empleado {
-public: 
-    int NumeroDeCitas;
+namespace HealthyStyleModel{
+    public ref class Secretary: public Empleado {
+    public: 
+        property int NumeroDeCitas;
+    };
 };
-
-#endif //_SECRETARY_H
