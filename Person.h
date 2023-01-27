@@ -1,20 +1,20 @@
 /**
- * Project Untitled
+ * 
  */
+#pragma once
+using namespace System;
+
+namespace HealthStyleModel {
+    public ref class Person {
+    public:
+        property int Id;
+        property String^ Name;
+        property String^ DocNumber;
+        property String^ Adress;
+        property String^ PhoneNumber;
+        property String^ Email;
+        property char Status;
+    };
+}
 
 
-#ifndef _PERSON_H
-#define _PERSON_H
-
-class Person {
-public: 
-    int Id;
-    String Name;
-    String DocNumber;
-    String Adress;
-    String PhoneNumber;
-    String Email;
-    char Status;
-};
-
-#endif //_PERSON_H

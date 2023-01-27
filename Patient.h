@@ -3,17 +3,17 @@
  */
 
 
-#ifndef _PATIENT_H
-#define _PATIENT_H
+#pragma once
 
 #include "Person.h"
-#include "Person.h"
+using namespace System;
+
+namespace HealthStyleModel {
+    public ref class Patient : public Person {
+    public:
+        property char Seguro;
+        property String^ FechaCita;
+    };
+}
 
 
-class Patient: public Person, public Patient, public Person {
-public: 
-    char Seguro;
-    String FechaCita;
-};
-
-#endif //_PATIENT_H

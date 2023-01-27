@@ -1,19 +1,19 @@
 /**
- * Project Untitled
+ *
  */
 
 
-#ifndef _FARMACEUTICO_H
-#define _FARMACEUTICO_H
+#pragma once
 
 #include "Empleado.h"
-#include "Empleado.h"
+using namespace System;
+
+namespace HealthStyleModel{
+    public ref class Farmaceutico : public Empleado {
+    public:
+        property int MedicinesDelivered;
+        property int MedicinesSold;
+    };
+}
 
 
-class Farmaceutico: public Empleado, public Empleado {
-public: 
-    int MedicinesDelivered;
-    int MedicinesSold;
-};
-
-#endif //_FARMACEUTICO_H
